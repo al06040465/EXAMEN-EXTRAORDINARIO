@@ -1,0 +1,31 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>ejercicio 4</title>
+<style>
+#salida[
+   margin-top:15px;
+   font-size:20px;
+   font-wheight: bold;
+]
+</style>
+</heaad>
+
+<body>
+<h2>procesamiento de arreglo</h2>
+
+<button onclick="proceso()">procesar
+arreglo</button>
+<div id="salida"></div>
+
+<script>
+let valores = [7,2,9,4];
+
+function procesar()[
+let resultado = valores.map(v => v *3);
+document,getElementobyid("salida").innertex t=
+     "nuevo arreglo: " + resultado;
+]
+</sript>
+</body>
+</html>
