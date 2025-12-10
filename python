@@ -1,0 +1,17 @@
+entrada = input("ingresa numeros separados por comas:")
+
+#conbertir string a lista de string
+numeros_str = entrada split(",")
+
+#convertir cada elemento a entero
+numeros = [ïnt(n) for n in numeros_str]
+
+#calcular datos
+mayor = max(numeros)
+menor = min(numeros)
+promedio = sum(numeros) /  len(numeros)
+
+#mostrar resultados
+print("numero mayor: (mayor)")
+print("numero menor: (menor)")
+print("promedio: (promedio)")
